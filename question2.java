@@ -6,7 +6,7 @@ public class question2 {
 		
 		
 		for (int i = 10 ; i<=100 ; i=i+10){
-			System.out.printf("攝氏溫度為 %s,華氏溫度為  %.2f  \n" ,i,i*(9/5.)+32);
+			System.out.printf("攝氏 %s,華氏溫度為  %.2f  \n" ,i,i*(9/5.)+32);
 		}
 	}
 
