@@ -6,7 +6,7 @@ public class question2 {
 		
 		
 		for (int i = 10 ; i<=100 ; i=i+10){
-			System.out.printf("Äá¤ó %s,µØ¤ó¬° %.2f \n",i,i*(9/5.)+32);
+			System.out.printf(" Äá¤ó %s,µØ¤ó¬°  %.2f  \n" ,i,i*(9/5.)+32);
 		}
 	}
 
