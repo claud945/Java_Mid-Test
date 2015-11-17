@@ -1,20 +1,20 @@
-import java.util.*;
+ï»¿import java.util.*;
 public class question1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner input = new Scanner(System.in);//·s¼W¿é¤J¤u¨ã\
-		int num1 = input.nextInt();//¿é¤J¼Æ­È¨ìNum1
-		int num2 = input.nextInt();//¿é¤J¼Æ­È¨ìNum2
-		int num3 = input.nextInt();//¿é¤J¼Æ­È¨ìNum3
-		/*¨ú¥­§¡¼Æ*/
-		int total = num1 + num2 + num3 ; //Á`©M
-		double average = total /3;  //¥­§¡¼Æ
-		System.out.println("²Ä¤@­Ó¼Æ:"+num1);
-		System.out.println("²Ä¤G­Ó¼Æ:"+num2);
-		System.out.println("²Ä¤T­Ó¼Æ:"+num3);
-		System.out.println("Á`©M¬°" + total);
-		System.out.println("¥­§¡¼Æ­È¬°" + average);
+		Scanner input = new Scanner(System.in);//ç©ç³¤å—î—°î˜›ã„£\
+		int num1 = input.nextInt();//å—î—°è®¡î…îŸNum1
+		int num2 = input.nextInt();//å—î—°è®¡î…îŸNum2
+		int num3 = input.nextInt();//å—î—°è®¡î…îŸNum3
+		/*îŸã‚­Ğè®¡*/
+		int total = num1 + num2 + num3 ; //ç¾†ã
+		double average = total /3.;  //ã‚­Ğè®¡
+		System.out.println("æî—¦î…Œè®¡:"+num1);
+		System.out.println("æî—­î…Œè®¡:"+num2);
+		System.out.println("æî—ºî…Œè®¡:"+num3);
+		System.out.println("ç¾†ãîƒ‹" + total);
+		System.out.println("ã‚­Ğè®¡î…îƒ‹" + average);
 		input.close();
 	}
 
